@@ -5,7 +5,69 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Acciones correctivas y de mejora
+    
+    .container-img-text-color.px-4.pt-4.mb-5
+      img.bg-container(src="@/assets/curso/temas/tema1/bg-1.svg")
+      img.mt-auto.col-12.col-lg-4.mb-4.mb-lg-0.mx-auto.position-relative(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 382px")
+      .col-12.col-lg-8.ps-md-5.mb-4.position-relative
+        p Todos los intérpretes de lengua de señas están a merced de comentarios positivos o negativos sobre su trabajo, sea por parte de los compañeros del gremio, la comunidad sorda, los familiares de los sordos, los clientes y los grupos o personas externas que tienen la mirada puesta en su labor. 
+        p A raíz de esto, en ocasiones surgen inconformidades por situaciones, actividades o procesos realizados durante el servicio de interpretación. Por lo tanto, es necesario que se realicen acciones correctivas, preventivas y de mejora, lo que requiere identificar, analizar y eliminar las causas de esas situaciones con el fin de prevenir acciones negativas a futuro.
+        .tarjeta.d-flex.align-items-center.p-4(style="background-color: white")
+          img(src="@/assets/curso/temas/tema2/camara-de-video.svg" style="max-width: 56px")
+          .col.ps-3
+            p.mb-0 Revise algunas acciones de mejora que se han implementado para optimizar la calidad de los procesos de interpretación:
+
+    figure.mb-5(data-aos="fade-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    .d-flex.mb-5
+      .titulo-secondary-content
+        h3.mb-0 Selección de métodos, gramática y hablantes nativos
+    
+    p Las actividades que se llevan a cabo para realizar las acciones correctivas y de mejora requieren una selección de métodos, los cuales son un conjunto de recursos, procedimientos, plantillas, documentos o estructuras para lograr la calidad del servicio de interpretación.
+
+    p.fw-bold(style="color: #7E2736") Existen diferentes procedimientos para la obtención de resultados óptimos:
+
+    .mb-5.bg-left-to-right.py-4(style="background: linear-gradient(0deg, rgba(255,255,255,1) 0%, #E1F3FC 25%, #E1F3FC 95%, rgba(255,255,255,1) 100%)")
+      .d-flex.flex-wrap.col-12.mb-4
+        img.col-12.col-lg-7.mb-4.mb-lg-7.mx-auto(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 609px")
+        ul.col-12.col-lg-5.ps-lg-4.lista-ul--color.lista-ul--separador
+          li.d-flex
+            img.me-3(src="@/assets/curso/temas/tema1/hand.svg" style="max-width: 18px")
+            | Entender la no conformidad, el fallo o error en la prestación del servicio.
+          li.d-flex
+            img.me-3(src="@/assets/curso/temas/tema1/hand.svg" style="max-width: 18px")
+            | Analizar la causa raíz o el porqué de la no conformidad.
+          li.d-flex
+            img.me-3(src="@/assets/curso/temas/tema1/hand.svg" style="max-width: 18px")
+            | Establecer una acción correctiva que elimine la causa de raíz (cómo se llevará a cabo).
+          li.d-flex
+            img.me-3(src="@/assets/curso/temas/tema1/hand.svg" style="max-width: 18px")
+            | Verificar la eficacia de la acción correctiva.
+      .tarjeta.d-flex.flex-wrap.align-items-center.p-4(style="background-color: #FBE6E9")
+        p.col-12.col-md-6.order-2.order-md-1.mb-0.pe-md-4 Aunque el intérprete de lengua de señas intenta adoptar el mismo nivel tonal del orador, la gramática utilizada en los servicios de interpretación debe ser precisa dependiendo de los hablantes nativos, es decir, los sordos que se ven involucrados en el ejercicio. Por lo tanto, al conocer de antemano a la comunidad sorda a la que se prestará el servicio, el intérprete tendrá la flexibilidad de la sintaxis en la transmisión de una idea o concepto. 
+        img.col-12.col-md-6.mb-4.mb-md-0.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 516px")
+
+    .d-flex.mb-5
+      .titulo-secondary-content
+        h3.mb-0 Técnicas empleadas para las acciones correctivas y de mejora
+    
+    p.mb-5 Existen diferentes técnicas empleadas para la corrección de las no conformidades, dependiendo del tipo, la gravedad y la cantidad de errores; incluso el mismo intérprete puede construir herramientas para la autoevaluación, la verificación y el mejoramiento de los servicios que presta.     
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.col-12.col-xl-10.mx-auto.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-4.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Dentro de estas técnicas se encuentran la realización de valoraciones cuantitativas o la utilización de indicadores que midan, por ejemplo, el tipo de inconformidad, las imprecisiones, la terminología, el estilo o la gramática; a su vez, estos pueden ser caracterizados por su nivel de gravedad menor, estable o crítica. 
+
+    .d-flex.mb-5
+      .titulo-secondary-content
+        h3.mb-0 Estilos de expresión
+
+    p.mb-5 Al hablar de la interpretación y la traducción se tiene presente el dominio de las lenguas involucradas, es decir, el español y la Lengua de Señas Colombiana. Generalmente, el intérprete no presta atención a la lengua materna,  el español, por lo que el discurso puede resultar en un léxico pobre. Por lo tanto, para una elocución rica en reserva de expresiones en la lengua origen y la lengua meta, el intérprete debe desarrollar algunas cualidades intelectuales, conózcalas a continuación: 
 
 </template>
 

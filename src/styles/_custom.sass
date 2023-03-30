@@ -1,14 +1,28 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 65%
+    right: 82%
+    width: 104px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 25%
+    width: 156px
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 18%
+    right: 65%
+    width: 148px
+  &-4
+    animation: float2 3.2s ease-in-out infinite alternate
+    position: absolute
+    top: 21%
+    right: 10%
+    width: 88px
 
 
 @keyframes float1
@@ -17,3 +31,50 @@
 
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal
+  .banner-principal__row
+    .banner-principal__info
+      h1, p
+        color: black !important
+    .banner-principal__img
+      padding-bottom: 0 !important
+
+.container-img-text-color
+  background-color: #FCEAE8
+  position: relative
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  .bg-container
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 0
+    width: 100%
+    background-size: cover
+    @media (max-width: 991px)
+      display: none
+.titulo-secondary-content
+  background-color: #0079B9
+  margin-right: auto
+  padding: .7rem 2rem
+  border-bottom-left-radius: 29px
+  border-top-right-radius: 29px
+  h3
+    color: white
+.bg-left-to-right
+  margin-left: -3rem
+  margin-right: -3rem
+  width: calc(100% + 6rem)
+  padding-right: 3rem
+  padding-left: 3rem
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,234,232,1) 5%, rgba(252,234,232,1) 95%, rgba(255,255,255,1) 100%)
+  @media (max-width: 768px)
+    background: #FFFAF4
