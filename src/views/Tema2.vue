@@ -69,6 +69,32 @@
 
     p.mb-5 Al hablar de la interpretación y la traducción se tiene presente el dominio de las lenguas involucradas, es decir, el español y la Lengua de Señas Colombiana. Generalmente, el intérprete no presta atención a la lengua materna,  el español, por lo que el discurso puede resultar en un léxico pobre. Por lo tanto, para una elocución rica en reserva de expresiones en la lengua origen y la lengua meta, el intérprete debe desarrollar algunas cualidades intelectuales, conózcalas a continuación: 
 
+    img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/img-5.png")
+    .bg-left-to-right.container-last-child
+      .w-100.d-flex
+        h3.mb-4.mx-auto Cualidades intelectuales del intérprete
+      img.mx-auto.mb-5(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 146px")
+      .container-text-and-img
+        p Un intérprete de Lengua de debe poseer el Señas Colombiana conocimiento lingüístico y cultural que aporte a su enriquecimiento léxico.
+        img.img-left(src="@/assets/curso/temas/tema2/i-1.svg")
+        img.img-right(src="@/assets/curso/temas/tema2/i-2.svg")
+
+      .container-text-and-img
+        p Debe realizar acciones de mejora que faciliten su elocuencia natural, su fluidez en las ideas y la habilidad para improvisar.
+        img.img-right(src="@/assets/curso/temas/tema2/i-3.svg")
+      
+      .container-text-and-img
+        p El intérprete debe poseer una muy buena memoria para transmitir de la mejor manera cada una de las expresiones.
+        img.img-left(src="@/assets/curso/temas/tema2/i-4.svg")
+        img.img-right(src="@/assets/curso/temas/tema2/i-5.svg")
+      
+      .container-text-and-img
+        p Debe acomodarse al estilo de expresión, dependiendo de los rasgos peculiares característicos del tema a interpretar, la población sorda, el nivel educativo, el contexto y demás elementos que definen el servicio.
+        img.img-right(src="@/assets/curso/temas/tema2/i-6.svg")
+
+      .container-text-and-img
+        p Finalmente, su discurso debe ser claro, coherente, preciso y fluido.
+        img.img-right(src="@/assets/curso/temas/tema2/i-7.svg")
 </template>
 
 <script>
@@ -88,4 +114,38 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.container-last-child
+  background: #FFFAF4
+  display: none
+  flex-wrap: wrap
+  padding-top: 3rem
+  padding-bottom: 3rem
+  h3
+    padding: .5rem 1rem
+    text-align: center
+    background-color: #F9DCE1
+    border: 2px solid #946EFC
+    border-radius: 50px
+    margin-right: auto
+    margin-left: auto
+  .container-text-and-img
+    background-color: #FBE6E9
+    padding: .7rem 1rem
+    position: relative
+    padding-bottom: 2.3rem
+    margin-bottom: 2rem
+    width: 100%
+    .img-left
+      position: absolute
+      bottom: 0
+      left: -15px
+      width: 64px
+    .img-right
+      position: absolute
+      bottom: 0
+      right: -15px
+      width: 64px
+  @media (max-width: 991px)
+    display: flex
+</style>

@@ -96,32 +96,79 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Acciones correctivas y de mejora',
+      referencia:
+        'Resolución 5274 de 2017. [Ministerio de Educación Nacional]. Por la cual se reglamenta el proceso de reconocimiento oficial de intérpretes oficiales de la Lengua de Señas Colombiana - Español. Marzo 21 de 2017.',
+      tipo: 'Resolución ',
+      link:
+        'https://www.mineducacion.gov.co/1780/articles-360342_recurso_1.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Acciones correctivas y de mejora',
+      referencia:
+        'Zalca, I. (s.f). <em>Método de enseñanza de elocución para intérpretes.</em> Boletín AEPE Nº 25.',
+      tipo: 'Artículo',
+      link:
+        'https://cvc.cervantes.es/ensenanza/biblioteca_ele/aepe/pdf/boletin_25_14_81/boletin_25_14_81_06.pdf',
+    },
+    {
+      tema: 'Acciones correctivas y de mejor',
+      referencia:
+        'TEDx Talks. (2019). <em>El lenguaje de señas. De un problema a una oportunidad</em> [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=90fM3LQztPU',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Acciones correctivas',
+      significado:
+        'Consisten en mejoras a los procesos de una organización tomadas para eliminar las causas de las no conformidades u otras situaciones indeseables.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Cuantitativo',
+      significado: 'De naturaleza numérica o cantidad.',
+    },
+    {
+      termino: 'Elocución',
+      significado:
+        'Elección y distribución de las palabras y los pensamientos en un discurso determinado.',
+    },
+    {
+      termino: 'Sintaxis',
+      significado:
+        'Parte de la Lingüística que estudia el orden de las palabras y la relación entre ellas.',
+    },
+    {
+      termino: 'Traducción',
+      significado:
+        'Expresar en una lengua algo que se ha enunciado anteriormente o que está escrito en otra diferente.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'INSOR. (2019). <em>Caracterización de ciudadanos, usuarios y grupos de interés.</em> INSOR.',
+      link:
+        'http://www.insor.gov.co/home/descargar/Caracterizacion_ciudadano_usuarios_grupos_interes_2019.pdf',
+    },
+    {
+      referencia:
+        'Ley 324 de 1996. [Congreso de Colombia]. Por la cual se crean algunas normas a favor de la población sorda. Octubre 11 de 1996.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=349',
+    },
+    {
+      referencia:
+        'Parra, S. (2005). <em>La revisión de traducciones en traductología: aproximación a la práctica de la revisión en el ámbito profesional mediante el estudio de casos y propuestas de investigación.</em> Universidad de Granada.',
+      link:
+        'https://digibug.ugr.es/flexpaper/handle/10481/660/15472905.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia:
+        'Zalca, I. (s.f). <em>Método de enseñanza de elocución para intérpretes.</em> Boletín AEPE Nº 25.',
+      link:
+        'https://cvc.cervantes.es/ensenanza/biblioteca_ele/aepe/pdf/boletin_25_14_81/boletin_25_14_81_06.pdf',
     },
   ],
   creditos: {
