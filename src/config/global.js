@@ -40,7 +40,7 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+        /*icono: 'far fa-file-alt',*/
         numero: '1',
         titulo: 'Verificación de los procesos de traducción',
         desarrolloContenidos: true,
@@ -48,7 +48,7 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+        /*icono: 'far fa-file-alt',*/
         numero: '2',
         titulo: 'Acciones correctivas y de mejora',
         desarrolloContenidos: true,
