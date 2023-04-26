@@ -269,7 +269,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruíz Torres',
+          nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validación y vinculación en plataforma LMS',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
