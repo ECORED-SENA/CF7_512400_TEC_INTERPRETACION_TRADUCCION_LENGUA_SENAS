@@ -21,7 +21,7 @@
     figure.mb-5(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/NSg05wcNn8g" title="Acciones de mejora en el proceso de interpretación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Acciones de mejora en el proceso de interpretación.
+      figcaption Video. Acciones de mejora en el proceso de interpretación.
 
     .d-flex.mb-5
       .titulo-secondary-content(data-aos="fade-right")

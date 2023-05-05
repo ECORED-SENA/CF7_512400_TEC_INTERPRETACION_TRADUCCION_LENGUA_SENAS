@@ -71,7 +71,7 @@
         .d-flex.flex-wrap.align-items-center
           p.order-2.order-md-1.col-12.col-md.pe-md-4 Durante el proceso de traducción existe la posibilidad de volver sobre el sentido que se transmite y analizar las equivalencias seleccionadas entre las lenguas; proceso que resulta valioso en términos de calidad del texto final.
           img.order-1.order-md-2.mb-4.mb-md-0.mx-auto(src="@/assets/curso/temas/tema1/img-t-2.svg" style="max-width: 240px; width: 100%")
-      .tarjeta.p-4(titulo="La exactitud" style="background-repeat: no-repeat; background-color: #F9DCE1" :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}")
+      .tarjeta.p-4(titulo="La legibilidad" style="background-repeat: no-repeat; background-color: #F9DCE1" :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}")
         h4 La legibilidad
         .d-flex.flex-wrap.align-items-center
           p.order-2.order-md-1.col-12.col-md.pe-md-4 Dado que las dos lenguas implicadas -Lengua de Señas Colombiana y Español-  poseen estructuras gramaticales diferentes, el intérprete/traductor debe estar atento y asegurarse de que todas las estructuras en las que se construye el texto final o texto meta corresponden a la lengua meta. Durante una alta exposición a los contenidos de las dos lenguas es posible que existan lapsus linguae a los que el ojo del intérprete/traductor no alerta, dada su familiaridad con el contenido. Es por ello que una de las habilidades más trabajadas en un intérprete es la altísima capacidad de concentración.

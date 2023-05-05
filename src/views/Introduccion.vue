@@ -22,7 +22,7 @@
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/LK88tQ4bLRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-            figcaption Video: Importancia de la traducción en la LSC.
+            figcaption Video. Importancia de la traducción en la LSC.
 
 
 </template>
