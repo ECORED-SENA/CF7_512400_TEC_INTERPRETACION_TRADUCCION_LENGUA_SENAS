@@ -70,8 +70,55 @@
 
     p.mb-5(data-aos="fade-up") Al hablar de la interpretación y la traducción se tiene presente el dominio de las lenguas involucradas, es decir, el español y la Lengua de Señas Colombiana. Generalmente, el intérprete no presta atención a la lengua materna,  el español, por lo que el discurso puede resultar en un léxico pobre. Por lo tanto, para una elocución rica en reserva de expresiones en la lengua origen y la lengua meta, el intérprete debe desarrollar algunas cualidades intelectuales, conózcalas a continuación:
 
-    img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/img-5.png")(data-aos="zoom-in")
-    .bg-left-to-right.container-last-child
+    .bg-c1.d-none.d-lg-flex
+      .px-5
+        .row.align-items-center
+          .col-lg-8
+
+            .bg-c4.mb-4
+              .px-5.pr-lg-0.px-xxl-5.py-3.ms-2
+                h1.mb-0 Cualidades intelectuales del <br>intérprete
+
+            .row.align-items-stretch.mb-3
+              .col-6
+                .bg-c3.p-3.mb-4.position-relative
+                  .d-flex.align-items-center.py-3
+                    p.mb-0 Un intérprete de Lengua de debe poseer el Señas Colombiana conocimiento lingüístico y cultural que aporte a su enriquecimiento léxico.
+                  img.img-left(src="@/assets/curso/temas/tema2/i-1.svg")
+                  img.img-right(src="@/assets/curso/temas/tema2/i-2.svg")
+
+              .col-6
+                .bg-c3.p-3.mb-4.position-relative
+                  .d-flex.align-items-center.py-3
+                    p.mb-0 Debe realizar acciones de mejora que faciliten su elocuencia natural, su fluidez en las ideas y la habilidad para improvisar.
+                  img.img-right(src="@/assets/curso/temas/tema2/i-3.svg")
+
+            .row.align-items-stretch.mb-3
+              .col-6
+                .bg-c3.p-3.mb-4.position-relative
+                  .d-flex.align-items-center.py-3
+                    p.mb-0 El intérprete debe poseer una muy buena memoria para transmitir de la mejor manera cada una de las expresiones.
+                  img.img-left(src="@/assets/curso/temas/tema2/i-4.svg")
+                  img.img-right(src="@/assets/curso/temas/tema2/i-5.svg")
+
+              .col-6
+                .bg-c3.p-3.mb-4.position-relative
+                  .d-flex.align-items-center.py-3
+                    p.mb-0 Debe realizar acciones de mejora que faciliten su elocuencia natural, su fluidez en las ideas y la habilidad para improvisar.
+                  img.img-right(src="@/assets/curso/temas/tema2/i-6.svg")
+
+            .row.align-items-center
+              .col
+                .bg-c3.p-3.mb-4.position-relative
+                  .d-flex.align-items-center.pt-3.pb-4
+                    p.mb-0 Debe realizar acciones de mejora que faciliten su elocuencia natural, su fluidez en las ideas y la habilidad para improvisar.
+                  img.img-right2(src="@/assets/curso/temas/tema2/i-7.svg")
+
+
+    //img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/img-5.png")(data-aos="zoom-in")
+
+
+    .bg-left-to-right.container-last-child.d-lg-none
       .w-100.d-flex
         h3.mb-4.mx-auto Cualidades intelectuales del intérprete
       img.mx-auto.mb-5(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 146px")
@@ -94,7 +141,7 @@
         img.img-right(src="@/assets/curso/temas/tema2/i-6.svg")
 
       .container-text-and-img
-        p Finalmente, su discurso debe ser claro, coherente, preciso y fluido.
+        p.pb-5 Finalmente, su discurso debe ser claro, coherente, preciso y fluido.
         img.img-right(src="@/assets/curso/temas/tema2/i-7.svg")
 </template>
 
@@ -116,6 +163,22 @@ export default {
 </script>
 
 <style lang="sass">
+.img-left
+  position: absolute
+  bottom: 0
+  left: -15px
+  width: 64px
+.img-right
+  position: absolute
+  bottom: 0
+  right: -15px
+  width: 64px
+.img-right2
+  position: absolute
+  bottom: 0px
+  right: -5px
+  width: 64px
+
 .container-last-child
   background: #FFFAF4
   display: none

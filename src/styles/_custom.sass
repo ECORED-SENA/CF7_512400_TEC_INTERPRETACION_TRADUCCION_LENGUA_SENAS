@@ -70,7 +70,23 @@
   @media (max-width: 768px)
     background: #FFFAF4
 
+.tabs-a.color-primario .tabs-a__tab__selected
+  color: #fff !important
+
+
+.banner-principal .tarjeta
+  background-position: left 50%
+
 .bg
+  &-c1
+    background-image: url(../assets/curso/temas/tema2/fondo_info4.png)
+    margin-inline: -3.2rem !important
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: right bottom
+    height: 707px
+    @media (max-width: 1199px)
+      background-image: url(../assets/curso/temas/tema2/fondo_info5.png)
   &-c2
     background-image: url(../assets/curso/intro/img2.svg)
     margin-inline: -3.2rem !important
@@ -78,10 +94,35 @@
     background-size: cover
     background-position: bottom
     margin-bottom: -48px
+  &-c3
+    background-color: #FBE6E9
+    height: 100%
+    @media (max-width: 1199px)
+      font-size: .9em
+  &-c4
+    margin-inline: -3.2rem !important
+    background-color: rgba(249,220,225, .8)
+    border: 10px solid #ED9AA9
+    border-right-width: 8px
+    border-left-width: 0px
+    position: relative
+    h1
+      font-size: 2.9em
+      line-height: 105%
+      @media (max-width: 1199px)
+        font-size: 2.4em
 
-.tabs-a.color-primario .tabs-a__tab__selected
-  color: #fff !important
+    &::before
+      position: absolute
+      content: ""
+      right: -158px
+      top: -10px
+      width: 150px
+      height: 0px
+      border-right: 50px solid transparent
+      border-left: 18px solid #ED9AA8
+      border-bottom: 150px solid transparent
+      @media (max-width: 1199px)
+        border-bottom: 135px solid transparent
 
 
-.banner-principal .tarjeta
-  background-position: left 50%
