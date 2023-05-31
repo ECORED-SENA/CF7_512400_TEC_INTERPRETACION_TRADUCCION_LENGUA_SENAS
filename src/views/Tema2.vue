@@ -76,79 +76,36 @@
 
     p.mb-5(data-aos="fade-up") Al hablar de la interpretación y la traducción se tiene presente el dominio de las lenguas involucradas, es decir, el español y la Lengua de Señas Colombiana. Generalmente, el intérprete no presta atención a la lengua materna,  el español, por lo que el discurso puede resultar en un léxico pobre. Por lo tanto, para una elocución rica en reserva de expresiones en la lengua origen y la lengua meta, el intérprete debe desarrollar algunas cualidades intelectuales, conózcalas a continuación:
 
-    .bg-c1.d-none.d-lg-flex
-      .px-5
-        .row.align-items-center
-          .col-lg-8
+    .row.justify-content-center.align-items-stretch.mb-5           
+      .col-lg-7
+        .bg1.p-4(data-aos="flip-down")
+          h2.mb-0(data-aos="fade-down") Cualidades intelectuales de lintérprete
+        .bg3.p-5
+          .tarjeta.bg2.p-4.mb-4(data-aos="fade-right") 
+            SlyderA.text-center(tipo="b")
+              .row.justify-content-center.mt-3
+                .col-11
+                  img.img-a.img-t(src='@/assets/curso/temas/tema2/2.svg', alt='')     
+                  p Un intérprete de Lengua de Señas Colombiana debe poseer un conocimiento lingüístico y cultural que enriquezca su léxico.  
+              .row.justify-content-center.mt-3
+                .col-11
+                  img.img-a.img-t(src='@/assets/curso/temas/tema2/3.svg', alt='')     
+                  p Debe realizar acciones de mejora que faciliten su elocuencia natural, su fluidez en las ideas y la habilidad para improvisar.   
+              .row.justify-content-center.mt-3
+                .col-11
+                  img.img-a.img-t(src='@/assets/curso/temas/tema2/4.svg', alt='')     
+                  p El intérprete debe poseer una muy buena memoria para transmitir de la mejor manera cada una de las expresiones.  
+              .row.justify-content-center.mt-3
+                .col-11
+                  img.img-a.img-t(src='@/assets/curso/temas/tema2/5.svg', alt='')     
+                  p Debe acomodarse al estilo de expresión, dependiendo de los rasgos peculiares característicos del tema a interpretar, la población sorda, el nivel educativo, el contexto y demás elementos que definen el servicio.
+              .row.justify-content-center.mt-3
+                .col-11
+                  img.img-a.img-t(src='@/assets/curso/temas/tema2/6.svg', alt='')     
+                  p Finalmente, su discurso debe ser claro, coherente, preciso y fluido.                                                  
+      .col-lg-5
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/1.png', alt='')     
 
-            .bg-c4.mb-4
-              .px-5.pr-lg-0.px-xxl-5.py-3.ms-2
-                h1.mb-0 Cualidades intelectuales del <br>intérprete
-
-            .row.align-items-stretch.mb-3
-              .col-6
-                .bg-c3.p-3.mb-4.position-relative
-                  .d-flex.align-items-center.py-3
-                    p.mb-0 Un intérprete de lengua de señas colombiana debe poseer el conocimiento lingüístico y cultural que aporte a su enriquecimiento léxico.
-                  img.img-left(src="@/assets/curso/temas/tema2/i-1.svg")
-                  img.img-right(src="@/assets/curso/temas/tema2/i-2.svg")
-
-              .col-6
-                .bg-c3.p-3.mb-4.position-relative
-                  .d-flex.align-items-center.py-3
-                    p.mb-0 Debe realizar acciones de mejora que faciliten su elocuencia natural, su fluidez en las ideas y la habilidad para improvisar.
-                  img.img-right(src="@/assets/curso/temas/tema2/i-3.svg")
-
-            .row.align-items-stretch.mb-3
-              .col-6
-                .bg-c3.p-3.mb-4.position-relative
-                  .d-flex.align-items-center.py-3
-                    p.mb-0 El intérprete debe poseer una muy buena memoria para transmitir de la mejor manera cada una de las expresiones.
-                  img.img-left(src="@/assets/curso/temas/tema2/i-4.svg")
-                  img.img-right(src="@/assets/curso/temas/tema2/i-5.svg")
-
-              .col-6
-                .bg-c3.p-3.mb-4.position-relative
-                  .d-flex.align-items-center.py-3
-                    p.mb-0 Debe acomodarse al estilo de expresión, dependiendo de los rasgos peculiares característicos del tema a interpretar, la población sorda, el nivel educativo, el contexto y demás elementos que definen el servicio.
-                  img.img-right(src="@/assets/curso/temas/tema2/i-6.svg")
-
-            .row.align-items-center
-              .col
-                .bg-c3.p-3.mb-4.position-relative
-                  .d-flex.align-items-center.pt-3.pb-4
-                    p.mb-0 Finalmente, su discurso debe ser claro, coherente, preciso y fluido.
-                  img.img-right2(src="@/assets/curso/temas/tema2/i-7.svg")
-
-
-    //img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/img-5.png")(data-aos="zoom-in")
-
-
-    .bg-left-to-right.container-last-child.d-lg-none
-      .w-100.d-flex
-        h3.mb-4.mx-auto Cualidades intelectuales del intérprete
-      img.mx-auto.mb-5(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 146px")
-      .container-text-and-img
-        p Un intérprete de lengua de señas colombiana debe poseer el conocimiento lingüístico y cultural que aporte a su enriquecimiento léxico.
-        img.img-left(src="@/assets/curso/temas/tema2/i-1.svg")
-        img.img-right(src="@/assets/curso/temas/tema2/i-2.svg")
-
-      .container-text-and-img
-        p Debe realizar acciones de mejora que faciliten su elocuencia natural, su fluidez en las ideas y la habilidad para improvisar.
-        img.img-right(src="@/assets/curso/temas/tema2/i-3.svg")
-
-      .container-text-and-img
-        p El intérprete debe poseer una muy buena memoria para transmitir de la mejor manera cada una de las expresiones.
-        img.img-left(src="@/assets/curso/temas/tema2/i-4.svg")
-        img.img-right(src="@/assets/curso/temas/tema2/i-5.svg")
-
-      .container-text-and-img
-        p Debe acomodarse al estilo de expresión, dependiendo de los rasgos peculiares característicos del tema a interpretar, la población sorda, el nivel educativo, el contexto y demás elementos que definen el servicio.
-        img.img-right(src="@/assets/curso/temas/tema2/i-6.svg")
-
-      .container-text-and-img
-        p.pb-5 Finalmente, su discurso debe ser claro, coherente, preciso y fluido.
-        img.img-right(src="@/assets/curso/temas/tema2/i-7.svg")
 </template>
 
 <script>

@@ -70,6 +70,14 @@
   @media (max-width: 768px)
     background: #FFFAF4
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto
+
 .tabs-a.color-primario .tabs-a__tab__selected
   color: #fff !important
 
@@ -125,4 +133,48 @@
       @media (max-width: 1199px)
         border-bottom: 135px solid transparent
 
+.bg1
+  background-color: #F3BCC6 
+  border-left: 0px !important
+  border: 8px solid #ED9AA9
 
+.bg2
+  background-color: #FBE6E9  
+
+.bg3
+  background-color: #F8F5F5  
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: 810px)
+    width: 45px
+    height: 45px
+  @media (max-width: $bp-max-sm )
+    width: 35px
+    height: 35px  
+.slyder-a__bullets__item    
+  @media (max-width: 810px)
+    width: 15px
+    height: 15px  
+    margin: 0 3px   
+  @media (max-width: $bp-max-sm)
+    width: 15px
+    height: 15px  
+    margin: 0 3px        
+
+.slyder-a
+  &__tipo-a
+    .slyder-a
+      &__bullets
+        position: absolute
+        bottom: 20px !important
+        left: 50%
+        transform: translateX(-50%)            
+
+.slyder-a__bullets__item--active
+  background-color: #005B8B !important
+  border: 1px solid #005B8B
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FFA031
+.slyder-a__bullets__item
+  background-color: #9CBBCC
+  border: 1px solid #9CBBCC       
