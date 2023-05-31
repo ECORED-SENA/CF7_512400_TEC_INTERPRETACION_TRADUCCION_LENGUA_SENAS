@@ -11,7 +11,7 @@
       img.bg-container(src="@/assets/curso/temas/tema1/bg-1.svg")
       img.mt-auto.col-12.col-lg-4.mb-4.mb-lg-0.mx-auto.position-relative(src="@/assets/curso/temas/tema1/img-1.png" style="max-width: 382px")
       .col-12.col-lg-8.ps-md-5.mb-4.position-relative
-        p Para comenzar es importante recordar cómo la
+        p Para comenzar es importante recordar cómo la&nbsp;
           b(style="color: #005B8B") Norma ISO 17100 ha definido el término interpretar en el contexto del lenguaje de señas.
         .tarjeta.p-4(style="background-color: white")
           .d-flex.align-items-start
@@ -23,9 +23,9 @@
 
     .d-flex.flex-wrap.flex-md-nowrap.align-items-center.mb-5
       img.mb-4.mb-md-0(src="@/assets/curso/temas/tema1/img-2.svg" style="max-width: 85px")(data-aos="fade-right")
-      p.mb-0.ps-md-4(data-aos="fade-left") Con dicha idoneidad, el intérprete se convierte en
+      p.mb-0.ps-md-4(data-aos="fade-left") Con dicha idoneidad, el intérprete se convierte en&nbsp;
         b(style="color: #005B8B") “un medio a través del cual las personas sordas pueden acceder a todos los servicios que como ciudadanos colombianos les confiere la Constitución”
-        | (Ley 324 de 1996, Art.7), definiendo escenarios incluyentes y participativos que le permiten:
+        | &nbsp;(Ley 324 de 1996, Art.7), definiendo escenarios incluyentes y participativos que le permiten:
 
     img.mb-5.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/img-3.svg")(data-aos="zoom-in")
 
@@ -53,9 +53,11 @@
       .tarjeta.tarjeta--azul.p-3
         p.mb-0 El intérprete debe trabajar en pro de la inclusión realizando este tipo de tareas
 
-    .d-flex.mb-5
-      .titulo-secondary-content
-        h3.mb-0 Técnicas de revisión del texto meta
+    Separador
+
+    #t_1_1
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 1.1 Técnicas de revisión del texto meta
 
     p(data-aos="fade-up") Para implementar las técnicas de revisión y corrección que se aplican a un proceso de traducción, logrando lo propuesto en el texto meta en Lengua de Señas Colombiana - Español, y que atienden al propósito de este, debe tenerse en cuenta al público al que se dirige dicho texto, además es importante tener en cuenta el contexto social y cultural.
     p.fw-bold(style="color: #7E2736")(data-aos="fade-right") Algunas técnicas de revisión del texto meta son:
@@ -87,9 +89,11 @@
           p.order-2.order-md-1.col-12.col-md.pe-md-4 Es una respuesta directa a las necesidades de la lengua y del registro del usuario final, al garantizar su beneplácito con el servicio prestado y al éxito de este. Es necesario recordar que las personas sordas poseen características diferentes de la lengua, no solo en la lengua natural, también en su segunda lengua. Esto exige del intérprete un conocimiento del usuario al que se dirige en beneficio del amplio sentido a comunicar.
           img.order-1.order-md-2.mb-4.mb-md-0.mx-auto(src="@/assets/curso/temas/tema1/img-t-5.svg" style="max-width: 240px; width: 100%")
 
-    .d-flex.mb-5
-      .titulo-secondary-content
-        h3.mb-0(data-aos="fade-up") Métodos y normas técnicas de revisión y corrección
+    Separador
+
+    #t_1_2
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 1.2 Métodos y normas técnicas de revisión y corrección
 
     p(data-aos="fade-right") Existen diferentes métodos para la revisión en los procesos de traducción; sin embargo, siempre será aconsejable, antes de pasar a este punto, hacer una autorrevisión del trabajo realizado. Al hacerlo se puede comparar con el texto origen para encontrar posibles desfases o errores.
 
@@ -121,7 +125,7 @@
             img.me-3(src="@/assets/curso/temas/tema1/hand.svg" style="max-width: 18px")
             | Incoherencia entre palabra, frases y oraciones.
 
-    p.fw-bold.mb-5(style="color: #7E2736")(data-aos="fade-up") A continuación se revisarán los dos métodos de revisión y corrección más utilizados:
+    p.fw-bold.mb-5(style="color: #7E2736")(data-aos="fade-up") A continuación, se revisarán los dos métodos de revisión y corrección más utilizados:
 
     .d-flex.flex-wrap
       .col-12.col-lg-6.d-flex.px-md-2.mb-4

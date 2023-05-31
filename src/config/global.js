@@ -44,6 +44,18 @@ export default {
         numero: '1',
         titulo: 'Verificación de los procesos de traducción',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Técnicas de revisión del texto meta',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Métodos y normas técnicas de revisión y corrección',
+            hash: 't_1_2',
+          },
+        ],
       },
 
       {
@@ -52,6 +64,24 @@ export default {
         numero: '2',
         titulo: 'Acciones correctivas y de mejora',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Selección de métodos, gramática y hablantes nativos',
+            hash: 't_1_1',
+          },
+          {
+            numero: '2.2',
+            titulo:
+              'Técnicas empleadas para las acciones correctivas y de mejora',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Estilos de expresión',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [

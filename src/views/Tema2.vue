@@ -23,9 +23,11 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/NSg05wcNn8g" title="Acciones de mejora en el proceso de interpretación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Acciones de mejora en el proceso de interpretación.
 
-    .d-flex.mb-5
-      .titulo-secondary-content(data-aos="fade-right")
-        h3.mb-0 Selección de métodos, gramática y hablantes nativos
+    Separador
+
+    #t_2_1
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 2.1 Selección de métodos, gramática y hablantes nativos
 
     p(data-aos="fade-up") Las actividades que se llevan a cabo para realizar las acciones correctivas y de mejora requieren una selección de métodos, los cuales son un conjunto de recursos, procedimientos, plantillas, documentos o estructuras para lograr la calidad del servicio de interpretación.
 
@@ -51,9 +53,11 @@
         p.col-12.col-md-6.order-2.order-md-1.mb-0.pe-md-4 Aunque el intérprete de lengua de señas intenta adoptar el mismo nivel tonal del orador, la gramática utilizada en los servicios de interpretación debe ser precisa dependiendo de los hablantes nativos, es decir, los sordos que se ven involucrados en el ejercicio. Por lo tanto, al conocer de antemano a la comunidad sorda a la que se prestará el servicio, el intérprete tendrá la flexibilidad de la sintaxis en la transmisión de una idea o concepto.
         img.col-12.col-md-6.mb-4.mb-md-0.order-1.order-md-2.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 516px")
 
-    .d-flex.mb-5
-      .titulo-secondary-content(data-aos="fade-right")
-        h3.mb-0 Técnicas empleadas para las acciones correctivas y de mejora
+    Separador
+
+    #t_2_2
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 2.2 Técnicas empleadas para las acciones correctivas y de mejora
 
     p.mb-5(data-aos="fade-up") Existen diferentes técnicas empleadas para la corrección de las no conformidades, dependiendo del tipo, la gravedad y la cantidad de errores; incluso el mismo intérprete puede construir herramientas para la autoevaluación, la verificación y el mejoramiento de los servicios que presta.
 
@@ -64,9 +68,11 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Dentro de estas técnicas se encuentran la realización de valoraciones cuantitativas o la utilización de indicadores que midan, por ejemplo, el tipo de inconformidad, las imprecisiones, la terminología, el estilo o la gramática; a su vez, estos pueden ser caracterizados por su nivel de gravedad menor, estable o crítica.
 
-    .d-flex.mb-5
-      .titulo-secondary-content(data-aos="fade-right")
-        h3.mb-0 Estilos de expresión
+    Separador
+
+    #t_2_3
+    .titulo-segundo.color-secundario
+      h2(data-aos="fade-right") 2.3 Estilos de expresión
 
     p.mb-5(data-aos="fade-up") Al hablar de la interpretación y la traducción se tiene presente el dominio de las lenguas involucradas, es decir, el español y la Lengua de Señas Colombiana. Generalmente, el intérprete no presta atención a la lengua materna,  el español, por lo que el discurso puede resultar en un léxico pobre. Por lo tanto, para una elocución rica en reserva de expresiones en la lengua origen y la lengua meta, el intérprete debe desarrollar algunas cualidades intelectuales, conózcalas a continuación:
 
@@ -83,7 +89,7 @@
               .col-6
                 .bg-c3.p-3.mb-4.position-relative
                   .d-flex.align-items-center.py-3
-                    p.mb-0 Un intérprete de Lengua de debe poseer el Señas Colombiana conocimiento lingüístico y cultural que aporte a su enriquecimiento léxico.
+                    p.mb-0 Un intérprete de lengua de señas colombiana debe poseer el conocimiento lingüístico y cultural que aporte a su enriquecimiento léxico.
                   img.img-left(src="@/assets/curso/temas/tema2/i-1.svg")
                   img.img-right(src="@/assets/curso/temas/tema2/i-2.svg")
 
@@ -104,14 +110,14 @@
               .col-6
                 .bg-c3.p-3.mb-4.position-relative
                   .d-flex.align-items-center.py-3
-                    p.mb-0 Debe realizar acciones de mejora que faciliten su elocuencia natural, su fluidez en las ideas y la habilidad para improvisar.
+                    p.mb-0 Debe acomodarse al estilo de expresión, dependiendo de los rasgos peculiares característicos del tema a interpretar, la población sorda, el nivel educativo, el contexto y demás elementos que definen el servicio.
                   img.img-right(src="@/assets/curso/temas/tema2/i-6.svg")
 
             .row.align-items-center
               .col
                 .bg-c3.p-3.mb-4.position-relative
                   .d-flex.align-items-center.pt-3.pb-4
-                    p.mb-0 Debe realizar acciones de mejora que faciliten su elocuencia natural, su fluidez en las ideas y la habilidad para improvisar.
+                    p.mb-0 Finalmente, su discurso debe ser claro, coherente, preciso y fluido.
                   img.img-right2(src="@/assets/curso/temas/tema2/i-7.svg")
 
 
@@ -123,7 +129,7 @@
         h3.mb-4.mx-auto Cualidades intelectuales del intérprete
       img.mx-auto.mb-5(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 146px")
       .container-text-and-img
-        p Un intérprete de Lengua de debe poseer el Señas Colombiana conocimiento lingüístico y cultural que aporte a su enriquecimiento léxico.
+        p Un intérprete de lengua de señas colombiana debe poseer el conocimiento lingüístico y cultural que aporte a su enriquecimiento léxico.
         img.img-left(src="@/assets/curso/temas/tema2/i-1.svg")
         img.img-right(src="@/assets/curso/temas/tema2/i-2.svg")
 
