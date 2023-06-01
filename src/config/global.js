@@ -149,7 +149,7 @@ export default {
     {
       tema: 'Acciones correctivas y de mejor',
       referencia:
-        'TEDx Talks. (2019). <em>El lenguaje de señas. De un problema a una oportunidad</em> [video]. YouTube. ',
+        'TEDx Talks. (2019). <em>El lenguaje de señas. De un problema a una oportunidad.</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=90fM3LQztPU',
     },
