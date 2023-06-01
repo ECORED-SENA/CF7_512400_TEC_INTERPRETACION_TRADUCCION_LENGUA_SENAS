@@ -238,7 +238,7 @@ export default {
         },
         {
           nombre: 'German Albeiro Saldarriga ',
-          cargo: 'Instructora',
+          cargo: 'Instructor',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
@@ -281,7 +281,7 @@ export default {
       autores: [
         {
           nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -299,7 +299,7 @@ export default {
         },
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y Productor Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -327,7 +327,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Daniel Ricardo Mutis',
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
