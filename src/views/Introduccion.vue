@@ -15,8 +15,7 @@
         .px-5
           .container-decorativo-intro.d-flex.flex-wrap.flex-md-nowrap.mb-5(data-aos="fade-up")
             img.mb-4.mb-md-0(src="@/assets/curso/temas/img-1.svg" style="max-width: 72px")(data-aos="fade-right")
-            p.mb-0.ps-md-4(data-aos="fade-left") Bienvenido a este componente formativo, para comenzar el recorrido por el mismo
-              b(style="color: #005B8B") revise la información que se presenta a continuación:
+            p.mb-0.ps-md-4(data-aos="fade-left") Bienvenido a este componente formativo, para comenzar el recorrido por el mismo #[strong revise la información que se presenta a continuación:]
 
           figure.mb-5(data-aos="fade-left")
             .video
